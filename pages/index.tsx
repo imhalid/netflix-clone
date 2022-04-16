@@ -30,7 +30,7 @@ const Home = ({
   return (
     <div className="relative h-screen bg-gradient-to-b from-gray-900/10 to-[#010511]">
       <Head>
-        <title>Create Next App</title>
+        <title>Netflix</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
