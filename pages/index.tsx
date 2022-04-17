@@ -36,7 +36,11 @@ const Home = ({
   if (loading) return 'loading'
   console.log(netflixOriginals)
   return (
-    <div className="relative h-screen bg-gradient-to-b from-gray-900/10 to-[#010511]">
+    <div
+      className={`relative h-screen bg-gradient-to-b from-gray-900/10 to-[#010511] ${
+        showModal && '!h-screen overflow-hidden'
+      }`}
+    >
       <Head>
         <title>Netflix</title>
         <link rel="icon" href="/favicon.ico" />
