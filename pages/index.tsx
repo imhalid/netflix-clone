@@ -37,17 +37,18 @@ const Home = ({
   console.log(netflixOriginals)
   return (
     <div
-      className={` relative h-screen overflow-x-hidden bg-gradient-to-b from-gray-900/10 to-[#010511] ${
+      className={`relative h-screen overflow-x-hidden ${
         showModal && '!h-screen overflow-hidden'
       }`}
     >
+      <div className="absolute h-screen w-screen bg-gradient-to-b from-gray-900/10 to-[#010511]"></div>
       <Head>
         <title>Netflix</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Header />
-      <main className="lg:spacey24 relative pl-4 pb-24 lg:pl-16 ">
+      <main className="relative pl-4 pb-24 lg:space-y-24 lg:pl-16 ">
         <Banner netflixOriginals={netflixOriginals} />
         <section className="md:space-y-24">
           <Row title="Trending Now" movies={trendingNow} />

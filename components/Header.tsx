@@ -1,5 +1,4 @@
 import { BellIcon, SearchIcon } from '@heroicons/react/solid'
-import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import useAuth from '../hooks/useAuth'
 function Header() {
@@ -8,19 +7,19 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.screenY > 0) {
+      if (window.screenY > 10) {
         setIsScrolled(true)
       } else {
         setIsScrolled(false)
       }
     }
-
     window.addEventListener('scroll', handleScroll)
 
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }
   }, [isScrolled])
+
   return (
     <header className={`${isScrolled && 'bg-[#141414]'}`}>
       <div className="flex items-center space-x-2 md:space-x-10">
@@ -53,6 +52,7 @@ function Header() {
         />
         {/* </Link> */}
       </div>
+      {/* <div className="supports-backdrop-blur:bg-white/95 absolute left-0 -top-10 -z-10  h-[128px] w-full bg-white bg-slate-900/75 backdrop-blur dark:border-slate-50/[0.06]"></div> */}
     </header>
   )
 }
