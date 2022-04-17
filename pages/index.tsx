@@ -37,7 +37,7 @@ const Home = ({
   console.log(netflixOriginals)
   return (
     <div
-      className={`relative h-screen bg-gradient-to-b from-gray-900/10 to-[#010511] ${
+      className={` relative h-screen overflow-x-hidden bg-gradient-to-b from-gray-900/10 to-[#010511] ${
         showModal && '!h-screen overflow-hidden'
       }`}
     >
