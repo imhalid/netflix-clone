@@ -1,4 +1,4 @@
-import { PlayIcon, VolumeUpIcon } from '@heroicons/react/outline'
+import { VolumeUpIcon } from '@heroicons/react/outline'
 import {
   PlusIcon,
   ThumbUpIcon,
@@ -77,7 +77,7 @@ function Modal() {
                 Play
               </button>
               <button className="modalButton">
-                <PlusIcon />
+                <PlusIcon className="h-7 w-7" />
               </button>
               <button className="modalButton">
                 <ThumbUpIcon className="h-6 w-6" />
