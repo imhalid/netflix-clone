@@ -1,23 +1,30 @@
-# Next.js + Tailwind CSS Example
+# Netflix-Clone
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+If you want to register with your own e-mail address. Type your login information and then click the register button. and that's it.
 
-## Deploy your own
+[Open This Project](https://netflix-clone-imhalid.vercel.app)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+> mail: templatemail@gmail.com
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+> password: asdfghj
 
-## How to use
+- Firebase
+- Tailwindcss
+- Typescript
+- Next.js
+- React.js
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">Mobile</th>
+    <th class="tg-0lax">Desctop</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><img src="https://github.com/imhalid/netflix-clone/blob/main/styles/mobile.jpeg?raw=true" alt="Mobile"></td>
+    <td class="tg-0lax"><img src="https://github.com/imhalid/netflix-clone/blob/main/styles/desktop.jpg?raw=true" alt="Desktop"></td>
+  </tr>
+</tbody>
+</table>
