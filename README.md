@@ -13,6 +13,7 @@ If you want to register with your own e-mail address. Type your login informatio
 - Typescript
 - Next.js
 - React.js
+- MUI - React Component Library
 
 <table class="tg">
 <thead>
